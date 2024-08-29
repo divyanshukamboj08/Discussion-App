@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discussion App</title>
+    <link rel="stylesheet" href="tst.css">
+</head>
+
+<body>
+    <div id="app">
+        <div id="header">Discussion App</div>
+        <div id="content">
+            <div id="leftContainer">
+                <button id="leftButton">Add Question</button>
+                <div id="questionList"></div>
+            </div>
+            <div id="rightContainer">
+                <div id="rightInputs" class="hidden">
+                    <h1>Welcome to Discussion Portal !</h1>
+                    <p>Enter a subject and question to get started</p>
+                    <input type="text" id="subjectInput" placeholder="Add Subject"><br><br>
+                    <input type="text" id="questionInput" placeholder="Add Question"><br><br>
+                    <button id="submitQuestion">Submit</button>
+                </div>
+                <div id="rightDisplay" class="hidden">
+                    <div id="questionDisplay"></div>
+                    <button id="deleteQuestion">Resolve</button>
+                    <div id="responseList"></div>
+                    <div id="responseInputs" class="hidden">
+                        <h2>ADD RESPONSE</h2>
+                        <input type="text" id="nameInput" placeholder="Name"><br><br>
+                        <input type="text" id="responseInput" placeholder="Response"><br><br>
+                        <button id="submitResponse">Submit Response</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="tst.js">
+
+    </script>
+</body>
+
+</html>
